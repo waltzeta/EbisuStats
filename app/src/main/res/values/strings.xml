@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EbisuStats</string>
+    <string name="title_activity_navigation_drawer"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ebisu</string> <!-- NOMBRE DE USUARIO POR DEFECTO-->
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="nav_home">Inicio</string>
+    <string name="nav_settings">Configuración</string>
+    <string name="nav_logout">Cerrar sesión</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="selectProduct">Seleccionar Producto</string>
+    <string name="selectProductType">Seleccionar Tipo de Producto</string>
+</resources>

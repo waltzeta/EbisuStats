@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "419343839344",
+    "firebase_url": "https://ebisustats-default-rtdb.firebaseio.com",
+    "project_id": "ebisustats",
+    "storage_bucket": "ebisustats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419343839344:android:9fb0e57906cf6aa8ae84b5",
+        "android_client_info": {
+          "package_name": "com.ebisustats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBiaZEaqZIjHmKSlmrLq7ridoFzt5rOpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

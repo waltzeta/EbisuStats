@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ebisustats.ui.LoginActivity"
+    android:background="#80CDCDCD">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="347dp">
+        <ImageView
+            android:id="@+id/Perfil_img"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/olakanawa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"/>
+
+        <TextView
+            android:id="@+id/EbisuStats_txt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="#80808080"
+            android:fontFamily="@font/sedwick_normal"
+            android:paddingRight="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text="EbisuStats"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Perfil_img"
+            app:layout_constraintVertical_bias="0.072"/>
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="315dp"
+            android:layout_height="174dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/logo_txt"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/logo_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mooli_normal"
+            android:paddingRight="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:text=" [Logo]"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Perfil_img"
+            app:layout_constraintVertical_bias="0.778"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/Bienvenido_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:fontFamily="@font/mooli_normal"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:fontFamily="@font/mooli_normal"
+        android:hint="Ingrese Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/password_txt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:fontFamily="@font/mooli_normal"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/iniciar_sesion_button"
+        android:layout_width="200dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/main"
+        android:drawableBottom="@color/black"
+        android:fontFamily="@font/mooli_normal"
+        android:text="Iniciar Sesion"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿No tiene Cuenta?"
+        android:textColor="@color/main"
+        android:fontFamily="@font/mooli_normal"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"></TextView>
+    <Button
+        android:id="@+id/createAccount_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Una"
+        android:paddingLeft="40dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:fontFamily="@font/mooli_normal"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="@color/main" />
+
+</LinearLayout>

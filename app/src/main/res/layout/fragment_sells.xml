@@ -1,0 +1,135 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ebisustats.ui.sells.SellsFragment">
+    <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:padding="16dp"
+            android:text="Ventas"
+            android:fontFamily="@font/mooli_normal"
+            android:textSize="25sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupSellsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/ventas_diarias_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diarias"
+                android:fontFamily="@font/mooli_normal"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/ventas_semanales_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semanales"
+                android:fontFamily="@font/mooli_normal"
+                android:layout_marginRight="10dp"
+                android:textSize="16dp"/>
+
+            <RadioButton
+                android:id="@+id/ventas_mensuales_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mensuales"
+                android:fontFamily="@font/mooli_normal"
+                android:textSize="16dp"/>
+        </RadioGroup>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Número de ventas: "
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/numeroventas_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promedio de ventas: "
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/promedioventas_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganancias: "
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/ganancias_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$0"
+                    android:fontFamily="@font/mooli_normal"
+                    android:layout_margin="15dp"
+                    android:textSize="18sp"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
