@@ -30,14 +30,15 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="5dp"
             android:textSize="25dp" />
+        <!--
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_clear"
+            android:id="@+id/cancelButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginLeft="195dp"
             android:layout_marginTop="8dp"
-            android:id="@+id/cancelButton"/>
+            android:src="@drawable/ic_clear" />-->
 
     </LinearLayout>
 
@@ -62,7 +63,7 @@
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/mooli_normal"
             android:text="Añadir venta"
-            android:textColor="@color/main"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     </LinearLayout>
@@ -87,7 +88,7 @@
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/mooli_normal"
             android:text="Añadir Nuevo Producto"
-            android:textColor="@color/main"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     </LinearLayout>
@@ -111,7 +112,7 @@
             android:layout_marginBottom="60dp"
             android:fontFamily="@font/mooli_normal"
             android:text="Editar Producto"
-            android:textColor="@color/main"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     </LinearLayout>

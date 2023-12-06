@@ -110,7 +110,7 @@ public class NavigationDrawer extends AppCompatActivity implements NavigationVie
         LinearLayout EditProductLayout = dialog.findViewById(R.id.LayoutEditProduct);
 
         //Img para cerrar el bottomShett
-        ImageView cancelButton = dialog.findViewById(R.id.cancelButton);
+        //ImageView cancelButton = dialog.findViewById(R.id.cancelButton); //BOTON ELIMINADO TEMPORALMENTE
         ImageView topBottomShettImg = dialog.findViewById(R.id.TopBottomShett_img);
 
         AddSellLayout.setOnClickListener(new View.OnClickListener() {
@@ -139,12 +139,13 @@ public class NavigationDrawer extends AppCompatActivity implements NavigationVie
         });
 
         //Funciones para cerrar el BottomShett
+        /*
         cancelButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
             }
-        });
+        });*/
         topBottomShettImg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

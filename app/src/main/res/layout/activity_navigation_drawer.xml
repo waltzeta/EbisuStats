@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    tools:context="ebisustats.NavigationDrawer">
+    tools:context="com.ebisustats.NavigationDrawer">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/main"
+            android:background="@color/main2"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.DayNight.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
@@ -87,7 +87,7 @@
         android:layout_gravity="start"
         android:background="@color/background1"
         app:itemIconTint="@color/main"
-        app:itemTextColor="@color/main"
+        app:itemTextColor="@color/black"
         app:itemTextAppearance="@style/itemsStyle"
         app:headerLayout="@layout/nav_header_navigation_drawer"
         app:menu="@menu/activity_main_drawer"/>
